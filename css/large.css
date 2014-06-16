@@ -1,0 +1,156 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    
+    font-family: helvetica;
+}
+
+h2 {
+    color:white;
+    width:102%;
+    margin-left:-1%;
+    text-align: left;
+    height:1.4em;
+    vertical-align: middle;
+    background-color: #237dcf;
+    
+    text-align: center;
+    
+    border-bottom: solid 0.2em;
+    border-bottom-color: rgba(0,0,0,0.4);
+}
+
+nav {
+    position: fixed;
+    width:15%;
+    left:0;
+    text-align: right;
+    color: white;
+    
+    vertical-align: middle;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    margin:0;
+    width:100%;
+    vertical-align: middle;
+    
+}
+
+li {
+    font-size: 1.5em;
+    width: inherit;
+    vertical-align: middle;
+    background-color: #237dcf;
+    padding-right: 0.7em;
+    height:1.4em;
+    
+    
+}
+
+li:hover {
+    background-color: #92bfe8;
+}
+    
+#top_menu {
+    border-top-right-radius: 5em;
+}
+    
+#bottom_menu {
+    border-bottom-right-radius: 5em;
+}
+
+iframe {
+    padding-top: 5%;
+}
+
+.topmenu {
+    border-top-right-radius: 2em;
+}
+
+.bottommenu{
+    border-bottom-right-radius: 2em;
+}
+
+.pull-me {
+    display: none;
+}
+    
+a {
+    text-decoration: none;
+    color:white;
+}
+
+#wrapper {
+    width:65%;
+    height:auto;
+    
+    background-color: #92bfe8;
+    
+    text-align: center;
+
+    margin-left:25%;
+}
+
+header {
+    position: relative;
+    height:130px;
+}
+
+/*INTRO*/
+#intro {
+    position: relative;
+    width: 100%;
+    height:auto;
+    margin-bottom: 5%;
+}
+
+#intro img {
+    width:101%;
+    margin-left: -0.5%;
+    border: solid rgba(0,0,0,0.4);
+    height:auto;
+    height:20em;
+        
+}
+
+#talktimes {
+    position: relative;
+    margin-top: 5%;
+    width:100%;
+    padding-top: 5%;
+}
+/*ABOUTUS*/
+#aboutus {
+    position: relative;
+    
+    margin-bottom: 5%;
+}
+
+/*EVENTS*/
+#events {
+    position: relative;
+    
+    margin-bottom: 5%;
+}
+
+#literature {
+    position: relative;
+    
+    margin-bottom: 5%;
+}
+
+#contact {
+    position: relative;
+    
+    margin-bottom: 5%;
+}
+    
+}
