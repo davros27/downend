@@ -4,8 +4,8 @@
 }
 
 body {
-    
     font-family: helvetica;
+    /*font-family: "Lucida Console", Monaco, monospace;*/
 }
 
 h2 {
@@ -25,11 +25,10 @@ h2 {
 
 nav {
     position: fixed;
+    top: 30%;
     width:15%;
     left:0;
     text-align: right;
-    color: white;
-    
     vertical-align: middle;
 
 }
@@ -41,6 +40,7 @@ ul {
     margin:0;
     width:100%;
     vertical-align: middle;
+        
     
 }
 
@@ -48,27 +48,60 @@ li {
     font-size: 1.5em;
     width: inherit;
     vertical-align: middle;
-    background-color: #237dcf;
+    /*background-color: #237dcf;*/
     padding-right: 0.7em;
     height:1.4em;
+    
+    border-bottom: solid rgba(0,0,0, 0.4);
+    border-width: 0.1em;
     
     
 }
 
-li:hover {
-    background-color: #92bfe8;
+<!--li:hover {
+    background-color: rgba(146, 191, 232, 0.5);
+}-->
+
+.panel li:hover:nth-child(1) {
+    background-color: rgba(146, 191, 232, 0.5);
 }
     
-#top_menu {
+<!--#top_menu {
     border-top-right-radius: 5em;
 }
     
 #bottom_menu {
     border-bottom-right-radius: 5em;
-}
+}-->
 
 iframe {
     padding-top: 5%;
+}
+
+footer {
+    height:auto;
+    background-color: rgba(0,0,0,0.4);
+}
+    
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+    
+}
+
+#wrapper {
+    width:65%;
+    height:auto;
+
+    opacity: 0.5%;
+    text-align: center;
+
+    margin-left:25%;
+}
+
+header {
+    position: relative;
+    height:130px;
 }
 
 .topmenu {
@@ -82,75 +115,55 @@ iframe {
 .pull-me {
     display: none;
 }
-    
-a {
-    text-decoration: none;
-    color:white;
-}
 
-#wrapper {
-    width:65%;
-    height:auto;
-    
-    background-color: #92bfe8;
-    
-    text-align: center;
-
-    margin-left:25%;
-}
-
-header {
-    position: relative;
-    height:130px;
-}
 
 /*INTRO*/
 #intro {
     position: relative;
     width: 100%;
-    height:auto;
-    margin-bottom: 5%;
+    height:1000px;
+    background-color: #6694af;
 }
 
 #intro img {
-    width:101%;
-    margin-left: -0.5%;
-    border: solid rgba(0,0,0,0.4);
+    width:102%;
+    margin-left: -1%;
+    border-bottom: solid rgba(0,0,0,0.4);
     height:auto;
-    height:20em;
         
 }
 
 #talktimes {
     position: relative;
-    margin-top: 5%;
+    margin-top: 1%;
     width:100%;
     padding-top: 5%;
 }
 /*ABOUTUS*/
 #aboutus {
     position: relative;
+    height: 1000px;
     
-    margin-bottom: 5%;
+    background-color: #a2b4a6;
 }
 
 /*EVENTS*/
 #events {
     position: relative;
-    
-    margin-bottom: 5%;
+    height: 1000px;
+    background-color: #f6d9a6;
 }
 
 #literature {
     position: relative;
-    
-    margin-bottom: 5%;
+    height: 1000px;
+    background-color: #f5aa5e;
 }
 
 #contact {
     position: relative;
-    
-    margin-bottom: 5%;
+    height: 1000px;
+    background-color: #df5d49;
 }
     
 }
